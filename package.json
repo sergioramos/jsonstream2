@@ -1,0 +1,41 @@
+{
+  "name": "JSONStream2",
+  "version": "1.0.0",
+  "description": "Dominic Tarr's JSONStream using Rodd Vaggs' through2",
+  "keywords": [
+    "streams",
+    "stream",
+    "streams2",
+    "json",
+    "parse",
+    "stringify",
+    "writable",
+    "readable"
+  ],
+  "homepage": "https://github.com/ramitos/JSONStream2",
+  "bugs": {
+    "url": "http://github.com/ramitos/JSONStream2/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "license": "MIT",
+  "author": "Sérgio Ramos <http://sergioramos.me> (mail@sergioramos.me)",
+  "main": "src/JSONStream2.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/JSONStream2.git"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do echo '***' $t '***'; node $t; done"
+  },
+  "dependencies": {
+    "jsonparse": "0.0.6",
+    "through2": "^0.6.1",
+    "type-component": "0.0.1"
+  },
+  "devDependencies": {
+    "prova": "^1.14.0"
+  }
+}

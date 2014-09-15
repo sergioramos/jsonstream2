@@ -1,5 +1,5 @@
 {
-  "name": "JSONStream2",
+  "name": "jsonstream2",
   "version": "1.0.0",
   "description": "Dominic Tarr's JSONStream using Rodd Vaggs' through2",
   "keywords": [

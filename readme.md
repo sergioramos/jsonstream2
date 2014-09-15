@@ -5,7 +5,7 @@
 ## install
 
 ```bash
-npm install [--save/--save-dev] JSONStream2
+npm install [--save/--save-dev] jsonstream2
 ```
 
 ## license

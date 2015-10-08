@@ -179,6 +179,8 @@ module.exports.stringify = function(open, sep, close, indent) {
 
     fn();
   }, function(fn) {
+    if(first) this.push(open);
+    first = false;
     this.push(close);
     fn();
   });
@@ -213,6 +215,8 @@ exports.stringifyObject = function (open, sep, close, indent) {
 
     fn();
   }, function(fn) {
+    if(first) this.push(open);
+    first = false;
     this.push(close);
     fn();
   });

@@ -12,9 +12,9 @@
     "writable",
     "readable"
   ],
-  "homepage": "https://github.com/ramitos/JSONStream2",
+  "homepage": "https://github.com/sergioramos/JSONStream2",
   "bugs": {
-    "url": "http://github.com/ramitos/JSONStream2/issues",
+    "url": "http://github.com/sergioramos/JSONStream2/issues",
     "email": "mail@sergioramos.me"
   },
   "license": "MIT",
@@ -29,19 +29,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ramitos/JSONStream2.git"
+    "url": "git://github.com/sergioramos/JSONStream2.git"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do echo '***' $t '***'; node $t; done"
   },
   "dependencies": {
-    "jsonparse": "0.0.6",
-    "through2": "^0.6.1",
+    "jsonparse": "1.3.1",
+    "through2": "^3.0.0",
     "type-component": "0.0.1"
   },
   "devDependencies": {
-    "event-stream": "^3.3.4",
+    "event-stream": "^4.0.1",
     "it-is": "^1.0.3",
-    "prova": "^1.14.0"
+    "prova": "^3.0.0"
   }
 }

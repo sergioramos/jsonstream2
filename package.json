@@ -40,7 +40,7 @@
     "type-component": "0.0.1"
   },
   "devDependencies": {
-    "event-stream": "^4.0.1",
+    "event-stream": "3.3.4",
     "it-is": "^1.0.3",
     "prova": "^3.0.0"
   }

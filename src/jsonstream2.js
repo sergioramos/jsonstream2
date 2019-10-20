@@ -27,7 +27,7 @@ module.exports.parse = function(path, map) {
 
   var stream = through.obj(function(chunk, enc, fn) {
     if (type(chunk) === 'string') {
-      chunk = new Buffer(chunk)
+      chunk = Buffer.from(chunk)
     }
 
     parser.write(chunk)

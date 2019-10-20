@@ -34,6 +34,9 @@
   "scripts": {
     "test": "set -e; for t in test/*.js; do echo '***' $t '***'; node $t; done"
   },
+  "engines": {
+    "node": ">=5.10.0"
+  },
   "dependencies": {
     "jsonparse": "1.3.1",
     "through2": "^3.0.0",
